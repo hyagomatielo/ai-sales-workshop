@@ -12,13 +12,17 @@ Public workshop library: https://hyagomatielo.github.io/ai-sales-workshop/
 
 Every uploaded file gets a download card automatically. There is no separate list to maintain.
 Attendees do not need a GitHub account. Share the public library link above, not the repository link.
-The site starts empty until you upload real workshop materials.
+The library opens with clickable industry folders. Open a folder to see its files,
+and use the breadcrumb links or your browser's Back button to navigate.
+Folder URLs can be copied and shared directly.
+Search finds files in the current folder and all its subfolders; searching from
+**All folders** searches the entire library. Clear search to return to folder browsing.
 
-### Names and categories
+### Names and folders
 
 - Use helpful filenames, such as `Customer_Research_Prompts.txt`. Underscores and hyphens become spaces in card titles.
-- Files directly inside `assets` are grouped by file type.
-- Optionally use subfolders, such as `assets/Session 1/`, to set your own categories. The first folder name becomes the category.
+- Files directly inside `assets` appear alongside the top-level folders.
+- Subfolders, such as `assets/Session 1/`, appear as clickable folders with their original names. Nested folders are supported. Folders appear when they contain published files; empty folders are not shown.
 - Any regular file type is supported. Hidden files/folders (names beginning with a dot) are not published.
 - GitHub's browser uploader limits each file to 25 MiB. Git blocks files larger than 100 MiB. Use an external hosting service for larger videos or archives; this site does not upload them for you.
 - GitHub Pages is public. Do not upload credentials, personal information, confidential customer data, or material you do not have permission to distribute. Deleting a file does not remove it from Git history.
